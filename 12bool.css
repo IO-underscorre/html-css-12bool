@@ -72,6 +72,11 @@
     max-width: calc((100% / 12) * 11);
 }
 
+.col-xs-12 {
+    flex-basis: calc((100% / 12) * 12);
+    max-width: calc((100% / 12) * 12);
+}
+
 
 .col-xs-offsets-1 {
     margin: calc((100% / 12) * 1);
@@ -218,6 +223,11 @@
         flex-basis: calc((100% / 12) * 11);
         max-width: calc((100% / 12) * 11);
     }
+
+    .col-sm-12 {
+        flex-basis: calc((100% / 12) * 12);
+        max-width: calc((100% / 12) * 12);
+    }
     
     
     .col-sm-offsets-0 {
@@ -327,6 +337,11 @@
         flex-basis: calc((100% / 12) * 11);
         max-width: calc((100% / 12) * 11);
     }
+
+    .col-md-12 {
+        flex-basis: calc((100% / 12) * 12);
+        max-width: calc((100% / 12) * 12);
+    }
     
     
     .col-md-offsets-0 {
@@ -435,6 +450,11 @@
     .col-lg-11 {
         flex-basis: calc((100% / 12) * 11);
         max-width: calc((100% / 12) * 11);
+    }
+
+    .col-lg-12 {
+        flex-basis: calc((100% / 12) * 12);
+        max-width: calc((100% / 12) * 12);
     }
     
     
