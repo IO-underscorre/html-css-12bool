@@ -119,7 +119,7 @@
 
 
 
-/* ALIGNMENT AND JUSTIFICATION CLASSES */
+/* ALIGNMENT AND JUSTIFICATION ROW */
 /* Justification */
 .justify-space-around {
     justify-content: space-around;
@@ -220,6 +220,10 @@
     }
     
     
+    .col-sm-offsets-0 {
+        margin: calc((100% / 12) * 0);
+    }
+
     .col-sm-offsets-1 {
         margin: calc((100% / 12) * 1);
     }
@@ -325,6 +329,10 @@
     }
     
     
+    .col-md-offsets-0 {
+        margin: calc((100% / 12) * 0);
+    }
+    
     .col-md-offsets-1 {
         margin: calc((100% / 12) * 1);
     }
@@ -427,6 +435,11 @@
     .col-lg-11 {
         flex-basis: calc((100% / 12) * 11);
         max-width: calc((100% / 12) * 11);
+    }
+    
+    
+    .col-lg-offsets-0 {
+        margin: calc((100% / 12) * 0);
     }
     
     
