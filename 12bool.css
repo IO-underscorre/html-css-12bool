@@ -78,6 +78,10 @@
 }
 
 
+.col-xs-offsets-0 {
+    margin-left: calc((100% / 12) * 0);
+}
+
 .col-xs-offsets-1 {
     margin-left: calc((100% / 12) * 1);
 }
