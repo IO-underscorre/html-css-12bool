@@ -3,3 +3,17 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+[class*="col-"] {
+    background-color: chocolate;
+    text-align: center;
+    padding: 1rem;
+    border: .05rem solid white;
+    color: white;
+}
+
+[class*="col-"] > [class*="col-"] {
+    background-color: chartreuse;
+    border-color: black;
+    color: black;
+}
